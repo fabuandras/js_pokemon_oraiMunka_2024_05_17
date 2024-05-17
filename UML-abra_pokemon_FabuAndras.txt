@@ -1,0 +1,21 @@
+
+
+###     UML-ábra: Pokemon-hoz     ###
+
+
+_______________Pokemon_______________
+
+- nev: str
+- kep: str
+- mondat: str
++ szuloElem: DOM
+
+_____________________________________
+
++ beszel(): void
++ get nev(): str
++ set mondat(): (szoveg: str): void
+- htmlOsszeallit(): str
+- megjelenit(): void
+
+_____________________________________
